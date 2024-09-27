@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyldonDep</title>
+    <!-- CDN Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('https://www.birds.cornell.edu/home/wp-content/uploads/2023/09/334289821-Baltimore_Oriole-Matthew_Plante.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #fff;
+            font-family: 'Arial', sans-serif; /* Améliore la typographie */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        dt{ 
+            color : aqua
+        }
+
+        .commun {
+            background: rgba(0, 0, 0, 0.7); /* Augmente la transparence pour un meilleur contraste */
+            margin: 0 auto; /* Centre le conteneur */
+            border-radius: 1rem;
+            text-indent: 2em; /* Indente le texte */
+            
+            max-width: 80vw;
+            margin: 1rem auto; /* Réduit la marge pour mieux voir le contenu */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .commun p {
+            text-align: justify;
+         }
+        
+        .commun:hover {
+            transform: translateY(-10px);
+            background: rgba(0, 0, 0, 0.85); /* Accentuation de l'arrière-plan au survol */
+        }
+
+        h2, h4 {
+           
+            color: green;
+            margin: 0;
+            padding-bottom: 1rem;
+            font-size: 2.5rem; /* Augmentation de la taille du texte */
+        }
+
+        p, dd, dt {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+         
+        strong {
+            color: #ff6347; /* Couleur rouge plus douce */
+            font-weight: bold;
+        }
+
+        /* Media Queries pour une meilleure adaptation mobile */
+        @media (max-width: 600px) {
+            .commun {
+                padding: 1.5rem;
+                max-width: 95vw;
+            }
+
+            h2, h3 {
+                font-size: 1.8rem;
+            }
+
+            p, dd, dt {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div   class="commun " >
+    
+            <h2>Bienvenue sur ma page</h2>
+        
+            <p>Ceci n'est qu'un test pour m'amuser.</p>
+        </div>
+
+        <div class="commun">
+            <dl>
+                <dt>Citation 1</dt>
+                <dd>Dans la vie, il y a deux types de personnes : ceux qui ont une arme et ceux qui creusent, toi tu creuses.</dd>
+
+                <dt>Citation 2</dt>
+                <dd>Nous ne sommes que des gens ordinaires poussés à la vengeance au nom de la justice. Mais si la vengeance est appelée justice, alors la justice ne fera qu'engendrer encore plus de vengeance et deviendra une chaîne de haine.</dd>
+            </dl>
+        </div>
+
+        <div class="commun  ">
+            <h4>Section réservée à Péniel</h4>
+            <p >  
+                <p><strong>P</strong>leine de grâce et de force intérieure,</p>
+                <p><strong>É</strong>veillant l'espoir autour d'elle,</p>
+                <p><strong>N</strong>aturelle dans sa beauté et sa sagesse,</p>
+                <p><strong>I</strong>nspirante par son cœur généreux,</p>
+                <p><strong>E</strong>ngagée à poursuivre ses rêves avec détermination,</p>
+                <p><strong>L</strong>aissant une empreinte lumineuse partout où elle va.</p>
+            </p>
+        </div>
+    </div>
+
+    <!-- CDN Bootstrap JS (optionnel pour des fonctionnalités avancées) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.11/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
